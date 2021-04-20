@@ -1,9 +1,9 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-image: url(https://lh3.googleusercontent.com/jWbjxaijoiS3dfIhfUysNxVLFV0Jhi3yFSSdvjp81pHFlT9P7U4jo2WXZ97Jq1LOdfqtJw=s170);
-    background-size: auto;
+    font-family: sans-serif;
+    background-image: url(https://miro.medium.com/max/851/1*erhIbLAF6U9d3ImF7qVEQA.png);
+    background-size: cover;
 }
 .box{
     width: 500px;
@@ -14,21 +14,21 @@ body{
     transform: translate(-50%, -50%);
     background: rgba(0,0,0,.9);
     text-align: center;
-    box-sizing: content-box;
+    box-sizing: border-box;
     box-shadow: 8px 8px 50px;
 }
 .box h1{
-    color: blueviolet;
+    color: white;
     text-transform: uppercase;
     font-weight: 500;
     margin-top: 0px;
-    border-bottom: 5px solid #6a4caf;
+    border-bottom: 5px solid #4caf50;
     margin-bottom: 30px;
     padding: 13px 0;
 
 }
 .box p{
-    color: pink;
+    color: white;
     text-align: justify;
     font-weight: 500;
 }
